@@ -1,4 +1,10 @@
-h1{
+div{
+    color: red;
+    background: yellow;
+}
+p{
+    background-color: aqua;
+}
+a:hover{
     background-color: red;
-    color: yellow;
 }
