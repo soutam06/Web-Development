@@ -1,0 +1,140 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color: black;
+    color: white;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+#showcase{
+    background-image: url("image.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+#showcase p{
+    color: white;
+    line-height: 1.7em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+.font {
+  font-family: "Playwrite NL Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#input h2{
+    text-align: center;
+    color: black;
+}
+
+#input{
+    padding: 2rem;
+    background: #f4f4f4; 
+}
+
+#input label{
+    display: block;
+    color: black;
+}
+
+#input input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .btn {
+    display: block;
+    width: 80%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: auto;
+  }
